@@ -1,0 +1,26 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "bun run index.ts",
+    "build:theme": "sass scss/$THEME.scss themes/$THEME.css --style=compressed --load-path=node_modules/bootstrap/scss --no-source-map && postcss themes/$THEME.css --use autoprefixer --output themes/$THEME.css"
+  },
+  "author": "",
+  "license": "IIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "bootstrap": "^5.3.0",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "bun-types": "latest"
+  },
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

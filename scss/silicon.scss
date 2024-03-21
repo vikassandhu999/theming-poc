@@ -1,0 +1,23 @@
+
+$border-radius: .5rem !default;
+$border-radius-sm: .4rem !default;
+$border-radius-lg: .6rem !default;
+$border-radius-pill: 100rem !default;
+
+$white: #ffffff;
+
+$primary: #6366f1;
+$secondary: #eff2fc;
+$success: #22c55e;
+$info:  #4c82f7;
+$warning: #ffba08;
+$danger: #ef4444;
+$light: #fff;
+$dark: #0b0f19;
+
+@import "components";
+
+.aza-price-panel .card-title{
+    font-size: 100px;
+    font-weight: bold;
+}
